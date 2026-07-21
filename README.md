@@ -32,3 +32,36 @@ TechNova_SmartUtilitySystem/
 ├── main.cpp                 # Source code
 ├── inventory_data.txt       # Auto-generated database file
 └── README.md                # Project documentation
+🚀 How to Run
+1. Prerequisites
+Ensure you have a C++ compiler installed (e.g., GCC/MinGW or Clang).
+
+2. Compilation
+Open your terminal/command prompt and run:
+
+Bash
+g++ main.cpp -o utility_system
+3. Execution
+Run the compiled executable:
+
+Windows:
+
+DOS
+utility_system.exe
+Linux / macOS:
+
+Bash
+./utility_system
+📝 Usage Guide
+Display Inventory: Check available items, prices, and stock quantities.
+
+Add New Item: Add new products into the store inventory.
+
+Generate Order: Enter item IDs and quantities one by one. Once finished, type done to print the final itemized bill receipt.
+
+Exit: Saves current inventory state to file and closes the application.
+
+👤 Author
+Name: Khuram Sohail
+
+Role: C++ Programming Intern at TechNova
